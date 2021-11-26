@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(rgba(206, 148, 148, 0.5), rgba(103, 167, 127, 0.5),rgba(102, 11, 11, 0.5));
+}
+.country{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    align-items: center;
+}
+.country h1{
+    color: red;
+}
