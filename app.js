@@ -260,7 +260,7 @@ window.onload = () =>{
     })
 
 }
-container.addEventListener("change",  (e)=>{
+countryValue.addEventListener("change",  (e)=>{
     valueCountry = e.target.value;
     
      showCountry(valueCountry) 

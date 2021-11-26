@@ -9,13 +9,32 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(rgba(206, 148, 148, 0.5), rgba(103, 167, 127, 0.5),rgba(102, 11, 11, 0.5));
+    background: linear-gradient(rgba(131, 119, 119, 0.5), rgba(79, 155, 108, 0.5),rgba(102, 11, 11, 0.5));
+    margin: 0 1%;
+   
+}
+#country-value{
+    width: 50vw;
+    height: 5vh;
+    text-align: center;
+    background-color: rgba(93, 230, 150, 0.5);
+    border: none;
+    border-radius: 10%;
+    color: rgb(25, 4, 117);
+    font-size: 1rem;
+    outline: none;
+    letter-spacing: 5px;
+
 }
 .country{
     display: flex;
     flex-direction: column;
     margin: 2rem;
     align-items: center;
+}
+h1{
+    letter-spacing: 5px;
+ 
 }
 .country h1{
     color: red;
