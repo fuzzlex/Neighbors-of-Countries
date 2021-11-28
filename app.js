@@ -4,12 +4,12 @@ const newCountries = document.querySelector(".new-countries")
 
 
 window.onload =  () =>{
-	 callCountryAll()
+	 allCountryies()
 
 
 
 }
-const callCountryAll = async () => {
+const allCountryies = async () => {
 	try{
     let response = await fetch("https://restcountries.com/v3.1/all");
     let countryName = await response.json()
